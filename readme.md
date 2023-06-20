@@ -15,19 +15,27 @@ Based on characteristics of edges ,graph is divided into two types
 2. Undirected 
 
 ### Directed: ###
-    *  A graph in which the edges have a direction
-    *  Edges are usually represented by arrows pointing in the direction the graph can be traversed
-    <br>
-      ![Example for directed graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)<br>
+
+* A graph in which the edges have a direction
+
+* Edges are usually represented by arrows pointing in the direction the graph can be traversed
+<br>
+
+![Example for directed graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)<br>
       Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
     
 
 ### Undirected: ###
-    > A graph in which the edges are bidirectional
-    > A graph can be traversed in either direction
-    > The absence of an arrow tells that the graphs is undirected
-    <br>
-      ![Example for undirected graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png)
+
+* A graph in which the edges are bidirectional
+
+* A graph can be traversed in either direction
+
+* The absence of an arrow tells that the graphs is undirected
+
+<br>
+
+![Example for undirected graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png)
       Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 <br>
@@ -43,7 +51,7 @@ Based on characteristics of edges ,graph is divided into two types
 
 #### Multi graph : #### 
 
-* multiple edges from one vertex in graph
+* multiple edges from one vertex in graph<br>
   ![Example for multi graph](https://media.geeksforgeeks.org/wp-content/uploads/hamiltonian-circuit2-2.jpg)<br>
   Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
   <br>
@@ -57,27 +65,27 @@ Based on characteristics of edges ,graph is divided into two types
 
 #### Pseudo graph : ####
 
-* A graph G with a self-loop and some multiple edges is called a pseudo graph. 
+* A graph G with a self-loop and some multiple edges is called a pseudo graph.
   ![Example for pseudo graph](https://media.geeksforgeeks.org/wp-content/uploads/pseudo-2.png)<br>
   Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
   <br>
 
 #### Disconnected graph : ####
 
-* A graph that have disconnected vertexes
+* A graph that have disconnected vertexes.<br>
   ![Example for disconnected graph](https://media.geeksforgeeks.org/wp-content/uploads/bfs_disconnected.jpg)<br>
   Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
   <br>
   
 #### Weighted / Labeled graph : ####
 
-* A graph that contains values or labels assigned to its edges 
+* A graph that contains values or labels assigned to its edges <br>
   ![Example for weighted graph](https://media.geeksforgeeks.org/wp-content/uploads/20210618164116/gfg2-300x168.png)<br>
   Image-credit : [GeeksforGeeks](https://www.geeksforgeeks.org/)
   <br>
   <hr>
 
-## graph representations: ##
+## Graph representations: ##
 
   > ### **Adjacency matrix** ###
   > The adjacency matrix representation is a way to represent a graph using a matrix. In this representation, a graph with n vertices is represented by an n x n matrix, where each cell of the matrix indicates whether there is an edge between two vertices.
@@ -89,16 +97,16 @@ Based on characteristics of edges ,graph is divided into two types
 
 ### Applications of graph: ###
 
-    * In social networks, where individuals are represented as vertices, and relationships or connections between individuals are
-    represented as edges. 
+* In social networks, where individuals are represented as vertices, and relationships or connections between individuals are
+  represented as edges. 
 
-    * In Routing and Network Analysis, to analyze computer networks, transportation networks, and communication systems. Algorithms like Dijkstra's algorithm and the shortest path algorithms help in finding optimal routes, calculating distances, and analyzing network performance.
+* In Routing and Network Analysis, to analyze computer networks, transportation networks, and communication systems. Algorithms like Dijkstra's algorithm and the shortest path algorithms help in finding optimal routes, calculating distances, and analyzing network performance.
 
-    * used to model the web pages and hyperlinks in the World Wide Web.
+* used to model the web pages and hyperlinks in the World Wide Web.
 
-    * In search engines , to rank web pages based on their importance and popularity.
+* In search engines , to rank web pages based on their importance and popularity.
 
-    * In recommendation system to model user-item interactions and provide personalized recommendations. 
+* In recommendation system to model user-item interactions and provide personalized recommendations. 
   <br>
   <hr>
 
